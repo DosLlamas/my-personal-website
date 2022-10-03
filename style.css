@@ -2,8 +2,20 @@ body {
     background-color: rgb(46, 40, 47);
         margin: 0;
         padding: 0;
+        color:rgb(210, 202, 212);
         font-family: 'Noto Sans', sans-serif;
-
+        background-image: url('https://www.pngall.com/wp-content/uploads/11/Purple-PNG-File.png');
+        background-repeat: no-repeat;
+}
+a:link {
+    color: rgb(210, 202, 212);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(210, 202, 212);
+    background-color: transparent;
+    text-decoration: none;
 }
 #header {
 	margin-left:  80px;
@@ -12,8 +24,8 @@ body {
 }
 #name {
 	font-size: 36pt;
-	color: #504454;
-	margin-right: 20px;
+	color: #9b84a2;
+	margin-right: 40px;
 }
 #mainpage, #mainpage li {
 	display: inline;
